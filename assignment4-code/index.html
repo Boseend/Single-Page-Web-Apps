@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app='MenuApp'>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Assignment 04 - Components</title>
+</head>
+<body>
+    <ui-view></ui-view>
+
+    <!-- Libraries -->
+    <script src="angular.min.js"></script>
+    <script src="angular-ui-router.min.js"></script>
+
+    <!-- Modules -->
+    <script src="src/menuapp/menuapp.module.js"></script>
+    <script src="src/data/data.module.js"></script>
+
+    <!-- Routes -->
+    <script src="src/routes.js"></script>
+
+    <!-- 'MenuApp' module artifacts -->
+    <script src="src/menuapp/menuapp.controller.js"></script>
+    <script src="src/categories/categories.component.js"></script>
+    <script src="src/items/items.component.js"></script>
+
+    <!-- 'Data' module artifacts -->
+    <script src="src/data/menudata.service.js"></script>
+</body>
+</html>
